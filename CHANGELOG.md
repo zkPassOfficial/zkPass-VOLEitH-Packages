@@ -10,7 +10,7 @@ packages verify each other's proofs.
 | 2.x | 3 |
 | 1.x | unversioned |
 
-## 3.0.1 (unreleased)
+## 3.0.1 (2026-10-16)
 
 - Platform packages renamed to `@zkpass/vole-node-darwin-arm64`, `@zkpass/vole-node-darwin-x64`,
   `@zkpass/vole-node-linux-x64-gnu`, `@zkpass/vole-node-linux-arm64-gnu` and
