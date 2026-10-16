@@ -1,0 +1,49 @@
+{
+  "name": "@zkpass/vole-node",
+  "version": "3.0.1",
+  "description": "zkPass VOLE-in-the-Head zero-knowledge prover and verifier for Node: a native addon per platform, falling back to WebAssembly",
+  "keywords": [
+    "zkpass",
+    "zero-knowledge",
+    "zkp",
+    "vole-in-the-head",
+    "prover",
+    "verifier",
+    "node",
+    "native-addon",
+    "wasm"
+  ],
+  "main": "index.js",
+  "types": "index.d.ts",
+  "files": [
+    "index.js",
+    "index.d.ts",
+    "NOTICE",
+    "THIRD-PARTY-LICENSES"
+  ],
+  "optionalDependencies": {
+    "@zkpass/vole-node-darwin-arm64": "3.0.1",
+    "@zkpass/vole-node-darwin-x64": "3.0.1",
+    "@zkpass/vole-node-linux-arm64-gnu": "3.0.1",
+    "@zkpass/vole-node-linux-x64-gnu": "3.0.1",
+    "@zkpass/vole-node-win32-x64-msvc": "3.0.1",
+    "@zkpass/wasm-lib-node": "3.0.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zkPassOfficial/zkPass-VOLEitH-Packages.git",
+    "directory": "node-addons"
+  },
+  "homepage": "https://zkpass.org",
+  "license": "Apache-2.0",
+  "publishConfig": {
+    "access": "public"
+  },
+  "author": "zkPass Tech Team (https://zkpass.org)",
+  "bugs": {
+    "url": "https://github.com/zkPassOfficial/zkPass-VOLEitH-Packages/issues"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "name": "@zkpass/wasm-lib-web",
+  "version": "3.0.1",
+  "description": "zkPass VOLE-in-the-Head zero-knowledge prover and verifier as WebAssembly for browsers and Chrome extensions",
+  "keywords": [
+    "zkpass",
+    "zero-knowledge",
+    "zkp",
+    "vole-in-the-head",
+    "prover",
+    "verifier",
+    "wasm",
+    "browser",
+    "chrome-extension"
+  ],
+  "type": "module",
+  "files": [
+    "NOTICE",
+    "THIRD-PARTY-LICENSES",
+    "wasm_lib_bg.wasm",
+    "wasm_lib.js",
+    "wasm_lib.d.ts"
+  ],
+  "main": "wasm_lib.js",
+  "types": "wasm_lib.d.ts",
+  "sideEffects": [
+    "./wasm_lib.js"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zkPassOfficial/zkPass-VOLEitH-Packages.git",
+    "directory": "wasm-web"
+  },
+  "homepage": "https://zkpass.org",
+  "license": "Apache-2.0",
+  "publishConfig": {
+    "access": "public"
+  },
+  "author": "zkPass Tech Team (https://zkpass.org)",
+  "bugs": {
+    "url": "https://github.com/zkPassOfficial/zkPass-VOLEitH-Packages/issues"
+  }
+}

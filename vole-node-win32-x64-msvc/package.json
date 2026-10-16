@@ -1,0 +1,34 @@
+{
+  "name": "@zkpass/vole-node-win32-x64-msvc",
+  "version": "3.0.1",
+  "description": "Native Node addon of the zkPass VOLE-in-the-Head prover and verifier for Windows x64; installed by @zkpass/vole-node",
+  "main": "vole-node.win32-x64-msvc.node",
+  "files": [
+    "vole-node.win32-x64-msvc.node",
+    "NOTICE",
+    "THIRD-PARTY-LICENSES"
+  ],
+  "os": [
+    "win32"
+  ],
+  "cpu": [
+    "x64"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zkPassOfficial/zkPass-VOLEitH-Packages.git",
+    "directory": "vole-node-win32-x64-msvc"
+  },
+  "homepage": "https://zkpass.org",
+  "license": "Apache-2.0",
+  "publishConfig": {
+    "access": "public"
+  },
+  "author": "zkPass Tech Team (https://zkpass.org)",
+  "bugs": {
+    "url": "https://github.com/zkPassOfficial/zkPass-VOLEitH-Packages/issues"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

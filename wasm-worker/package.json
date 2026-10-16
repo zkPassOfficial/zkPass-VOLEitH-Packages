@@ -1,0 +1,40 @@
+{
+  "name": "@zkpass/wasm-lib-worker",
+  "version": "3.0.1",
+  "description": "zkPass VOLE-in-the-Head zero-knowledge prover and verifier as WebAssembly for Cloudflare Workers",
+  "keywords": [
+    "zkpass",
+    "zero-knowledge",
+    "zkp",
+    "vole-in-the-head",
+    "prover",
+    "verifier",
+    "wasm",
+    "cloudflare-workers"
+  ],
+  "main": "lib/index.js",
+  "exports": {
+    "types": "./lib/index.d.ts",
+    "import": "./lib/index.js"
+  },
+  "type": "module",
+  "files": [
+    "NOTICE",
+    "THIRD-PARTY-LICENSES",
+    "lib/**/*"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zkPassOfficial/zkPass-VOLEitH-Packages.git",
+    "directory": "wasm-worker"
+  },
+  "homepage": "https://zkpass.org",
+  "license": "Apache-2.0",
+  "publishConfig": {
+    "access": "public"
+  },
+  "author": "zkPass Tech Team (https://zkpass.org)",
+  "bugs": {
+    "url": "https://github.com/zkPassOfficial/zkPass-VOLEitH-Packages/issues"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "name": "@zkpass/wasm-lib-node",
+  "version": "3.0.1",
+  "description": "WebAssembly build of the zkPass VOLE-in-the-Head prover and verifier for Node (CommonJS), the fallback of @zkpass/vole-node",
+  "files": [
+    "NOTICE",
+    "THIRD-PARTY-LICENSES",
+    "wasm_lib_bg.wasm",
+    "wasm_lib.js",
+    "wasm_lib.d.ts"
+  ],
+  "main": "wasm_lib.js",
+  "types": "wasm_lib.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zkPassOfficial/zkPass-VOLEitH-Packages.git",
+    "directory": "wasm"
+  },
+  "homepage": "https://zkpass.org",
+  "license": "Apache-2.0",
+  "publishConfig": {
+    "access": "public"
+  },
+  "author": "zkPass Tech Team (https://zkpass.org)",
+  "bugs": {
+    "url": "https://github.com/zkPassOfficial/zkPass-VOLEitH-Packages/issues"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

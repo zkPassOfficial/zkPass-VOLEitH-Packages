@@ -1,0 +1,37 @@
+{
+  "name": "@zkpass/vole-node-linux-arm64-gnu",
+  "version": "3.0.1",
+  "description": "Native Node addon of the zkPass VOLE-in-the-Head prover and verifier for Linux arm64 (glibc 2.17+); installed by @zkpass/vole-node",
+  "main": "vole-node.linux-arm64-gnu.node",
+  "files": [
+    "vole-node.linux-arm64-gnu.node",
+    "NOTICE",
+    "THIRD-PARTY-LICENSES"
+  ],
+  "os": [
+    "linux"
+  ],
+  "cpu": [
+    "arm64"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zkPassOfficial/zkPass-VOLEitH-Packages.git",
+    "directory": "vole-node-linux-arm64-gnu"
+  },
+  "homepage": "https://zkpass.org",
+  "license": "Apache-2.0",
+  "publishConfig": {
+    "access": "public"
+  },
+  "author": "zkPass Tech Team (https://zkpass.org)",
+  "bugs": {
+    "url": "https://github.com/zkPassOfficial/zkPass-VOLEitH-Packages/issues"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "libc": [
+    "glibc"
+  ]
+}
